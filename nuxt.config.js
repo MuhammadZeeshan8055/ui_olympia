@@ -12,13 +12,18 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
-      },
-
-
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/css/style.css' },
+      { rel: 'stylesheet', href: '/css/custom.css' },
+      { rel: 'stylesheet', href: '/css/blocks.css' },
+      { rel: 'stylesheet', href: '/css/responsive.css' },
+      { rel: 'stylesheet', href: '/slick_slider/slick/slick.css' },
+      { rel: 'stylesheet', href: '/slick_slider/slick/slick-theme.css' },
+      { rel: 'stylesheet', href: '/fontawesome/css/all.min.css' }
+    ],
+    script: [
+      { src: '/jquery/jquery.js', type: 'text/javascript' },
+      { src: '/slick_slider/slick/slick.js', type: 'text/javascript' }
     ]
   },
 
